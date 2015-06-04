@@ -27,7 +27,7 @@ public class ReportImpl implements Report {
 
     @Override
     public String toJson() throws JsonProcessingException {
-        return Util.mapper.writeValueAsString(this);
+        return JsonObjectMapper.mapper.writeValueAsString(this);
     }
 
     /**

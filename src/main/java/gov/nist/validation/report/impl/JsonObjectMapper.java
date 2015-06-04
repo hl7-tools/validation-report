@@ -2,7 +2,7 @@ package gov.nist.validation.report.impl;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class Util {
+public class JsonObjectMapper {
 
     /**
      * Jackson object mapper for JSON serialization

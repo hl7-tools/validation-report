@@ -7,7 +7,7 @@ import gov.nist.validation.report.Trace;
 import java.util.List;
 import java.util.Map;
 
-import static gov.nist.validation.report.impl.Util.mapper;
+import static gov.nist.validation.report.impl.JsonObjectMapper.mapper;
 
 /**
  * An immutable implementation of a report entry
